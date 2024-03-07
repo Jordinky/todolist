@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "id": "00001",
+      "description": "Learning TypesCript",
+      "completed": "True"
+    },
+    {
+      "id": "00002",
+      "description": "Wash the dishes",
+      "completed": "False"
+    },
+    {
+      "id": "00003",
+      "description": "Fail Basketball",
+      "completed": "False",
+      "updatedAt": "3/7/2024"
+    },
+    {
+      "id": "00004",
+      "description": "Power nap",
+      "completed": "False"
+    }
+  ]
+}
