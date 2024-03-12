@@ -1,7 +1,6 @@
-
 const TODO = require("../database/toDo")
 const {v4: uuid} = require("uuid");
-
+const TodoObject = require("../model/Todo");
 
 const getAllTodosService = () => {
     try{
@@ -22,19 +21,20 @@ const getOneTodoService = (todoId:string) =>{
 };
 
 const createNewTodoService = (newToDo:any) => {
-    const toDoInsert = {
-        ...newToDo,
-        id: uuid(),
-        createdAt: new Date().toLocaleDateString("en-US",{timeZone: "UTC"}),
-        updatedAt: new Date().toLocaleDateString("en-US",{timeZone: "UTC"}),
-    };
+    var toDoInsert = new TodoObject(
+        uuid(),
+        newToDo.description,
+        newToDo.completed,
+        new Date().toLocaleDateString("en-US",{timeZone: "UTC"}),
+        new Date().toLocaleDateString("en-US",{timeZone: "UTC"})
+    );
+
     try{
         const createdToDo = TODO.createNewToDo(toDoInsert);
         return createdToDo;
     }catch(error){
         throw error
     }
-
 };
 
 const updateTodoService = (todoId: string,changes:any) => {

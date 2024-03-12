@@ -82,9 +82,10 @@ const deleteOneTodo = (todoID:string) => {
               };
         }
         DB.todos.splice(indexTodoDelete,1);
-        saveToDatabase(DB);
+        utils.saveToDatabase(DB);
     }catch(error:any){
         throw { status: error?.status || 500, message: error?.message || error };
     }
 };
+
 module.exports = {AllTodos,getTodo,createNewToDo,updateOneTodo,deleteOneTodo}; 

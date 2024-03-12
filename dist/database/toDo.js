@@ -76,7 +76,7 @@ const deleteOneTodo = (todoID) => {
             };
         }
         DB.todos.splice(indexTodoDelete, 1);
-        saveToDatabase(DB);
+        utils.saveToDatabase(DB);
     }
     catch (error) {
         throw { status: (error === null || error === void 0 ? void 0 : error.status) || 500, message: (error === null || error === void 0 ? void 0 : error.message) || error };
