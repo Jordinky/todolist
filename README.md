@@ -36,7 +36,12 @@ This is a TODO api developed for the first exercise for the backend developer bo
 
 ### Built with
 
+<div align ="center" heigth = "180px">
 <img src = "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg">
+<img src = "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg">
+<img src = "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg">
+</div>
+
 
 
 ### Installation
