@@ -25,6 +25,8 @@
 ## About the project
 This is a TODO api developed for the first exercise for the backend developer bootcamp at Cibernarum (Barcelona)
 
+This project uses a json file for store the CRUD operations, you can find it in the /src/database folder.
+
 ### Built with
 
 <div align-items ="center" >
