@@ -30,14 +30,13 @@
   </p>
 </div>
 
-<svg src = "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg">
 
 ## About the project
 This is a TODO api developed for the first exercise for the backend developer bootcamp at Cibernarum (Barcelona)
 
 ### Built with
 
-* [![NODEJS][Node.js]][https://nodejs.org/en]
+<img src = "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg">
 
 
 ### Installation
