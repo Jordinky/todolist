@@ -40,6 +40,28 @@ This is a TODO api developed for the first exercise for the backend developer bo
 * [![NODEJS][Node.js]][https://nodejs.org/en]
 
 
+### Installation
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/Jordinky/todolist.git
+    ```
+2. Go to the cloned directory
+    ```sh
+    cd todolist
+    ```
+3. Install NPM packages
+    ```sh
+    npm install
+    ```
+4. Run the project
+    ```sh
+    npm start server
+    ```
+5. Run the tests
+    ```sh
+    npm run test
+    ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
