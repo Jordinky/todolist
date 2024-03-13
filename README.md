@@ -36,10 +36,10 @@ This is a TODO api developed for the first exercise for the backend developer bo
 
 ### Built with
 
-<div align-items ="center">
-<img src = "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg" height="200">
-<img src = "https://www.svgrepo.com/show/353724/express.svg" height="200">
-<img src = "https://www.svgrepo.com/show/374146/typescript-official.svg" height="200">
+<div align-items ="center" >
+<img src = "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg" height="200" margin-left = "5">
+<img src = "https://www.svgrepo.com/show/353724/express.svg" height="200" margin-left = "5">
+<img src = "https://www.svgrepo.com/show/374146/typescript-official.svg" height="200" margin-left = "5">
 </div>
 
 
