@@ -30,9 +30,14 @@
   </p>
 </div>
 
+<!-- ABOUT THE PROJECT -->
 
+## About the project
+This is a TODO api developed for the first exercise for the backend developer bootcamp at Cibernarum (Barcelona)
 
+### Built with
 
+* [![NODEJS][Node.js]][https://nodejs.org/en]
 
 
 
