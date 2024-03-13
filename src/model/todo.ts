@@ -17,6 +17,5 @@ module.exports = class Todo {
   public getTodo(): any{
     return this.description + this.completed;
   }
-
 }
 

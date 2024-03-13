@@ -56,7 +56,7 @@ const updateOneTodo = (todoId:any,changes: Array <string>) => {
     if (todoUpdate === -1){
         throw {
             status: 400,
-            message: `Can't find workout with the id '${todoId}'`,
+            message: `Can't find todo with the id '${todoId}'`,
           };
     }
     const updatedTodo = {

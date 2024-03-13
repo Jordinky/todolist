@@ -9,6 +9,8 @@ const port = 3000;
 app.use(parser.json())
 app.use('/api/toDos', toDoRouter);
 
-app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
-});
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => console.log(`Listening on port ${port}`))
+}
+
+module.exports = app
