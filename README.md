@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/Jordinky/todolist">
-    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*bP0GbIkuUFhxhzoo" alt="Logo" width="80" height="80">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*bP0GbIkuUFhxhzoo" alt="Logo" width="200" height="100">
   </a>
 
   <h3 align="center">TODO list api</h3>
