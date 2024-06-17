@@ -51,7 +51,7 @@ This project uses a json file for store the CRUD operations, you can find it in 
     ```
 4. Run the project
     ```sh
-    npm start server
+    npm start
     ```
 5. Run the tests
     ```sh
