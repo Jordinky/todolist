@@ -10,4 +10,7 @@ module.exports = class Todo {
     getTodo() {
         return this.description + this.completed;
     }
+    getTodoId() {
+        return this.id;
+    }
 };
